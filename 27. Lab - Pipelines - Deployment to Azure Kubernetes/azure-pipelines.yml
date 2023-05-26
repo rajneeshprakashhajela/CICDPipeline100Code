@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'b3020420-c1f5-447c-acb1-0da44fc27f2c'
   imageRepository: 'sqlappdocker'
-  containerRegistry: 'localregistry1000.azurecr.io'
+  containerRegistry: 'testacr26may.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/sqlapp/Dockerfile'
   tag: '$(Build.BuildId)'
 
